@@ -42,7 +42,7 @@ POST /api/users/register
 POST /api/users/login  
 GET /api/recipes  
 POST /api/reviews  
-GET /api/reviews/:recipeId  https://github.com/Jaydip-2005/Hyscalar-Assignment
+GET /api/reviews/:recipeId 
 
 ## 👨‍💻 Author
 Jaydip Mishra
