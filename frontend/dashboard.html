@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h2>Recipe Dashboard</h2>
+    
+    <div class="filter-bar">
+        <input type="text" id="search" placeholder="Search recipes...">
+    
+        <select id="diet">
+            <option value="">All Diets</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+        </select>
+    
+        <select id="cuisine">
+            <option value="">All Cuisine</option>
+            <option value="italian">Italian</option>
+            <option value="indian">Indian</option>
+            <option value="chinese">Chinese</option>
+        </select>
+    
+        <select id="meal">
+            <option value="">All Meals</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+        </select>
+    
+        <select id="time">
+            <option value="">Any Time</option>
+            <option value="15">Under 15 min</option>
+            <option value="30">Under 30 min</option>
+            <option value="60">Under 60 min</option>
+        </select>
+    
+        <button onclick="searchRecipes()">Search</button>
+    </div>
+    
+    <div id="recipes"></div>
+
+    <script src="js/recipes.js"></script>
+    <script src="js/review.js"></script>
+
+</body>
+
+</html>
